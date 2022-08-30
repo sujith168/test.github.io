@@ -1,0 +1,132 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+    font-family: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+nav
+{
+  width:100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo{
+    width:80px;
+    padding-left: 30px;
+    align-items: flex-start;
+
+}
+nav ul li
+{
+    margin-top: 0;
+    list-style:none;
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+nav ul li a
+{
+    padding-top: 0%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.hero
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(car-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero h1
+{
+    width:400px;
+    padding-left: 0;
+    
+    color: #fff;
+}
+
+.content
+{
+    width:100%;
+    position: absolute;
+    top:50%;
+    transform:translateY(-30%);
+    padding-left: 100px;
+  
+}
+
+.content h1{
+    
+    margin-top: 10px;
+    color: skyblue;
+    font-weight: bold;
+}
+
+.content h3{
+
+   
+    font-weight: bolder;
+    color: white;
+}
+
+
+
+.footer
+{
+    padding-top: 20px;
+    background: #000;
+    color:#efefef;
+    padding-bottom: 20px;
+    padding-left: 220px;
+    margin-top: auto;
+    
+}
+
+.container
+{
+    max-width: 1170px;
+    margin: auto;
+    align-items: center;
+}
+.row
+{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.col-1
+{
+    width:25%;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.col-1 h5
+{
+    color:skyblue;
+    width:50%;
+}
